@@ -37,7 +37,7 @@ public class Weapon : MonoBehaviour {
 	static public Transform PROJECTILE_ANCHOR;
 	public bool ____________________;
 	[SerializeField]
-	private WeaponType _type = WeaponType.none;
+	private WeaponType _type = WeaponType.blaster;
 	public WeaponDefinition def;
 	public GameObject collar;
 	public float lastShot; // Time last shot was fired
