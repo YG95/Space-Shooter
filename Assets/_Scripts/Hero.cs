@@ -14,6 +14,7 @@ public class Hero : MonoBehaviour {
 	//public float shieldLevel = 1;
 	public bool ____________________________;
 	public Bounds bounds;
+	public Weapon[] weapons;
 
 	// Declare a new delegate type WeaponFireDelegate
 	public delegate void WeaponFireDelegate();
