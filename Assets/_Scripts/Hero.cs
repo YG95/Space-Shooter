@@ -29,6 +29,13 @@ public class Hero : MonoBehaviour {
 		ClearWeapons();
 		weapons[0].SetType(WeaponType.blaster);
 	}
+
+	void Start() {
+		// Reset the weapons to start _Hero with 1 blaster
+		ClearWeapons();
+		weapons[0].SetType(WeaponType.blaster);
+	}
+
 	void Update () {
 		// Pull in information from the Input class
 		float xAxis = Input.GetAxis("Horizontal"); // 1

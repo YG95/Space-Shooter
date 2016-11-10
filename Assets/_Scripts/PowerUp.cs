@@ -15,6 +15,7 @@ public class PowerUp : MonoBehaviour {
 	public TextMesh letter; // Reference to the TextMesh
 	public Vector3 rotPerSecond; // Euler rotation speed
 	public float birthTime;
+
 	void Awake() {
 		// Find the Cube reference
 		cube = transform.Find("Cube").gameObject;
