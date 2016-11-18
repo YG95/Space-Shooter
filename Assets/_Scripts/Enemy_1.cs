@@ -2,7 +2,7 @@
 using System.Collections;
 
 // Enemy_1 extends the Enemy class
-public class Enemy_1 : MonoBehaviour {
+public class Enemy_1 : Enemy {
 	
 	// Because Enemy_1 extends Enemy, the _____ bool won't work // 1
 	// the same way in the Inspector pane. :/
